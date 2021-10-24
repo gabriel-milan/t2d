@@ -39,7 +39,7 @@ And that's it! Now you can use your Typer app in Discord! Default commands are:
 !version Prints T2D version
 ```
 
-Following with the example above, you can do the following:
+Using the example above, you can do the following:
 
 ```
 !t2d hello Gabriel -> Shows "Hello Gabriel!"
