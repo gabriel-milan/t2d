@@ -1,9 +1,17 @@
 [tool.poetry]
 name = "t2d"
-version = "0.1.2"
+version = "0.1.3"
 description = "Seamless integration between Typer and Discord.py for CLI Discord bots"
 authors = ["Gabriel Gazola Milan <gabriel.gazola@poli.ufrj.br>"]
-license = "GPL-3.0"
+license = "GPL-3.0-only"
+readme = "README.md"
+homepage = "https://github.com/gabriel-milan/t2d"
+repository = "https://github.com/gabriel-milan/t2d"
+keywords = ["discord", "typer", "cli", "bot"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
