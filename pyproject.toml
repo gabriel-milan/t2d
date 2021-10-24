@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "t2d"
+version = "0.1.2"
+description = "Seamless integration between Typer and Discord.py for CLI Discord bots"
+authors = ["Gabriel Gazola Milan <gabriel.gazola@poli.ufrj.br>"]
+license = "GPL-3.0"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+importlib-metadata = {version = "^1.0", python = "<3.8"}
+"discord.py" = "^1.7.3"
+loguru = "^0.5.3"
+typer = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
