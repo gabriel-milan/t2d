@@ -1,3 +1,5 @@
+import shlex
+
 from discord import Message
 from discord.ext import commands
 from discord.ext.commands.context import Context
@@ -36,7 +38,8 @@ class T2D(commands.Bot):
             view.skip_string(ctx.prefix)
             view.skip_string("t2d")
             view.skip_string(" ")
-            args = view.read_rest().split(" ")
+            args = shlex.split(view.read_rest())
+            print(args)
             if len(args) == 1 and args[0] == "":
                 args = []
             stdout, stderr = run_app_command(self.app, args)
