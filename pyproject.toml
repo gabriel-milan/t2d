@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "t2d"
-version = "0.1.4"
+version = "0.1.5"
 description = "Seamless integration between Typer and Discord.py for CLI Discord bots"
 authors = ["Gabriel Gazola Milan <gabriel.gazola@poli.ufrj.br>"]
 license = "GPL-3.0-only"
